@@ -74,7 +74,7 @@ assign sum = a^b;
  ```
  module halfsub_top(a,b,D,Bo);
  input a,b;
- output D,Bo; // Outputs sum and carry for half adder:Outputs difference D,Borrow Bo for half s
+ output D,Bo; 
  assign D = a ^ b;
  assign Bo = ~a & b;
  endmodule
@@ -89,10 +89,22 @@ assign sum = a^b;
 
 **HALF SUBTRACTOR**
 
+![Screenshot 2024-11-23 192155](https://github.com/user-attachments/assets/5e9c7ffc-9fca-4022-aefb-e667ecca31fc)
 
 
 
 **Output/TIMING Waveform**
+
+**HALF ADDER**
+
+![Screenshot 2024-11-23 194025](https://github.com/user-attachments/assets/26c80179-3459-4df8-8da5-260bd94814f8)
+
+
+
+**HALF SUBTRACTOR**
+
+![Screenshot 2024-11-23 182720](https://github.com/user-attachments/assets/43a532d5-26c8-4608-97ce-b15884f8934c)
+
 
 **Result:**
 
