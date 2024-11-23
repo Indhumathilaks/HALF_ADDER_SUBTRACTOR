@@ -58,9 +58,39 @@ Program to design a half adder and full adder circuit and verify its truth table
 
 Developed by: L INDHUMATHI 24900500
 
+ **Half_adder**
+
+ ```
+ module halfadd_top(a,b,sum,carry);
+ input a,b;
+ output sum,carry; 
+assign sum = a^b;
+ assign carry = a & b;
+ endmodule
+```
+
+ **Half_subtractor**
+
+ ```
+ module halfsub_top(a,b,D,Bo);
+ input a,b;
+ output D,Bo; // Outputs sum and carry for half adder:Outputs difference D,Borrow Bo for half s
+ assign D = a ^ b;
+ assign Bo = ~a & b;
+ endmodule
+```
+
 **RTL Schematic**
 
-![Screenshot 2024-11-23 190015](https://github.com/user-attachments/assets/0cddf0e9-0037-4aa9-b3b3-68d4568d5b9e)
+**HALF ADDER**
+
+![Screenshot 2024-11-23 191544](https://github.com/user-attachments/assets/50ff829c-7114-4e52-bc04-5c47fae24ecb)
+
+
+**HALF SUBTRACTOR**
+
+
+
 
 **Output/TIMING Waveform**
 
