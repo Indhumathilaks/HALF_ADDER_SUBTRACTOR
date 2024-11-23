@@ -103,7 +103,8 @@ assign sum = a^b;
 
 **HALF SUBTRACTOR**
 
-![Screenshot 2024-11-23 182720](https://github.com/user-attachments/assets/43a532d5-26c8-4608-97ce-b15884f8934c)
+![Screenshot 2024-11-23 193140](https://github.com/user-attachments/assets/33a0b7d8-7009-46b0-a537-6a019b7fa53f)
+
 
 
 **Result:**
